@@ -1,6 +1,9 @@
-from django.urls import include, path
+
 from django.http import HttpResponseRedirect
 from django.conf import settings
+from django.conf.urls import  include, url
+from django.urls import include, path
+
 
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
